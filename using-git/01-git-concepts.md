@@ -62,8 +62,10 @@ Do some changes in the book directory - create, edit or delete files. After that
 
 Internally, Git stores full copy of all your book files in every commit. It means that you will be able to get every version of your book later if you need it.
 
-By the way, instead of "to create a commit", you can just say "to commit".
+By the way, you may use the verb "to commit" instead of "to create a commit".
 
 Git also stores who created the commit and when.
 
-Run the following command in shell to see all your commits:
+Run the following command in shell to see all your commits (it's quite long, make sure to copy it to the end):
+
+    git log "--pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'" --abbrev-commit
