@@ -22,7 +22,7 @@
 
 ## Working With Files
 
-Just edit files in PhpStorm project, create new ones, delete obsolete files - all the changes will be automatically uploaded to our server.
+Just edit files in PhpStorm project, create new ones, delete obsolete files - all the changes will be automatically uploaded to OsmDocs server.
 
 After making changes, open the book in the browser by clicking on a book link in `My Books` page of your OsmDocs account and see how the changes look like.
 

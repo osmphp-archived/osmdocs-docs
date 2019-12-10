@@ -15,7 +15,7 @@ Next time you connect to the book files, open `File -> Site Manager` menu and do
 
 ## Working With Files
 
-Operation with book files on our server are straightforward. Navigate files and use actions from right-click context menu in `Remote site` pane (typically on the right side).
+Operation with book files on OsmDocs server are straightforward. Navigate files and use actions from right-click context menu in `Remote site` pane (typically on the right side).
 
 After making changes, open the book in the browser by clicking on a book link in `My Books` page of your OsmDocs account and see how the changes look like.
 

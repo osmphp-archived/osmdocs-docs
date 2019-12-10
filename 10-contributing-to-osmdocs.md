@@ -1,6 +1,6 @@
 # Contributing To OsmDocs
 
-We want this project to become community-driven.
+I want this project to become community-driven.
 
 It is released under open-source license. You can contribute to it on GitHub:
 

@@ -45,7 +45,7 @@ Contents:
                 topic2.md
             page2.md
 
-    This way, you can create book page structure of any depth. We recommend limiting book depth to one or two levels as deep page structure may make your book harder to navigate.
+    This way, you can create book page structure of any depth. I recommend limiting book depth to one or two levels as deep page structure may make your book harder to navigate.
 
 ## Table Of Contents
 

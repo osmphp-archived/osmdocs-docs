@@ -4,19 +4,19 @@ Git is the world's leading distributed version control system.
 
 Git is mostly used to store software's source code as it especially shines in handling text files. It is also often used to store documentation files.
 
-In this guide, we will use Git to store all versions of the book files and to organize team workflow.
+In this guide, I will use Git to store all versions of the book files and to organize team workflow.
 
 {{ toc }}
 
 ## Command Line And Visual Tools
 
-To run Git operations, we will use command line. You may also use a visual alternative:
+To run Git operations, I will use command line. You may also use a visual alternative:
 
 * [GitHub Desktop](https://desktop.github.com/)
 * [Sourcetree](https://www.sourcetreeapp.com/)
 * [PhpStorm](https://www.jetbrains.com/help/phpstorm/using-git-integration.html) or other [JetBrains](https://www.jetbrains.com/products.html) product
 
-We do recommend trying out one of the visual tools, especially for analyzing version history and comparing versions.
+I do recommend trying out one of the visual tools, especially for analyzing version history and comparing versions.
 
 ## Learning Resources
 
@@ -41,7 +41,7 @@ To get started with Git, check the official learning resources:
 
 Git **repository** is a directory storing all the versions of your book.
 
-To get started with Git, download your book files to a local directory (we will refer to it as `{book_dir}`) and create a repository for it by running the following commands in shell:
+To get started with Git, download your book files to a local directory (I will refer to it as `{book_dir}`) and create a repository for it by running the following commands in shell:
 
     cd {book_dir}
     git init

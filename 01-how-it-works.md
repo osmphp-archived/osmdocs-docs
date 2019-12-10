@@ -1,4 +1,4 @@
-# Overview
+# How It Works
 
 Contents:
 
@@ -12,7 +12,7 @@ At the very least, book directory contains `index.md` file which represents book
 
 Other Markdown files in book directory are child pages of the home page. These pages may have child pages of their own. All book pages are written using Markdown syntax, may include images, tags and more.
 
-Create books on our server using your OsmDocs account.
+Create books inside your OsmDocs account.
 
 See also:
 
@@ -23,15 +23,15 @@ See also:
 
 ## Editing
 
-Create, edit or delete book files including images on our server using SFTP and see the changes in a Web browser.
+Create, edit or delete book files including images on OsmDocs server using SFTP and see the changes in a Web browser.
 
-You can edit Markdown files with any text editor, but we recommend using an editor specialized in Markdown.
+You can edit Markdown files with any text editor, but I recommend using an editor specialized in Markdown.
 
-For the best editing experience, we recommend downloading the book directory to your local hard drive and:
+For the best editing experience, I recommend downloading the book directory to your local hard drive and:
 
 * edit the book files locally;
 * configure your editor to save changes to disk automatically;
-* use tools to upload all changes to our server automatically, that is creation of new files, file edits, even renaming and deleting files.
+* use tools to upload all changes to OsmDocs server automatically, that is creation of new files, file edits, even renaming and deleting files.
 
 This way, you can just edit local files and just check the changes in the browser, not thinking about whether your changes are saved and uploaded.
 

@@ -10,7 +10,7 @@ All book pages use Markdown.
 
 Markdown is lightweight markup language for plain text files. It is easy to read in the original text file. It is also nicely shown as HTML.
 
-It has been written a lot about Markdown, and we couldn't explain it better:
+It has been written a lot about Markdown, and I couldn't explain it better:
 
 * [Getting Started](https://www.markdownguide.org/getting-started/)
 * [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
