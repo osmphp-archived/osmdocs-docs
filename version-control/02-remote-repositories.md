@@ -72,6 +72,40 @@ Either command will download book files from the latest commit on `master` branc
 
 ## `origin/master` Branch
 
+Remote repository also has `master` branch. After initial push or clone operation: 
 
+* the remote repository's `master` branch is attached to the same commit as your local `master` branch.
+* the remote repository's `master` branch position is also remembered in your local repository as `origin/master` branch.
+   
+You can see `origin/master` in [the commit history](git-concepts.html#commit-history) of your local repository:
 
-## Syncing Changes
+    * fee87e8 - (HEAD -> master, origin/master) commit #3 (6 hours ago) <Vladislav Osmianskij>
+    * ca17a3b - commit #2 (7 hours ago) <Vladislav Osmianskij>
+    * f708164 - commit #1 (9 hours ago) <Vladislav Osmianskij>
+
+Note that `origin/master` branch show remote repository's `master` branch position at the moment of last synchronization (push, clone or fetch) operation. Since then, position of the remote repository `master` branch may change.   
+
+## Fetching Remote Changes
+
+To download new commits you team mates pushed to the remote repository, use the following command:
+
+    git fetch
+    
+This command also reattaches `origin/master` branch to the same commit as remote repository's `master` branch.
+
+## Merging Remote Changes
+
+To merge remote changes into your own local `master` branch, run the following command:
+
+    git merge origin/master
+    
+If you didn't commit any changes since last fetch/merge operations, you can use the following shorter command to do both fetch and then merge:
+
+    git pull origin master
+    
+## Pushing Local Changes
+
+After you write and commit more content locally, you can push your changes to the remote repository:
+
+    git push origin master
+    

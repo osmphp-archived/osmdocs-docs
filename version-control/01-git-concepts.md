@@ -149,7 +149,7 @@ Delete non-current branch when it is not needed anymore using:
 
 Use branches to label commits which you currently work on.
 
-For example, two team members may take some commit, make independent changes to it, and create independent commits with their changes. Or independent commits maybe created by the same person (see [Feature Branches](feature-branches.html) for a practical example).
+For example, two team members may take some commit, make independent changes to it, and create independent commits with their changes. Or independent commits maybe created by the same person.
 
 Such independent work results in non-linear commit history:
 
