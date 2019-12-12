@@ -1,6 +1,6 @@
 # Preparing Your Computer
 
-In order to write [books](creating-and-editing-books.html) efficiently you will need:
+In order to write [books](creating-and-editing-books.html) (directories containing Markdown files and images and being shown as websites) efficiently you will need:
 
 * a decent Markdown editor - you will spend most of the time writing Markdown files;
 * SFTP client to connect to the OsmDocs server and edit the book files directly or a SFTP sync to synchronize local book files with book files on OsmDocs server;

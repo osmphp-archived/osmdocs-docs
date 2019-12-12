@@ -1,10 +1,16 @@
 # Atom
 
+After downloading books to your local hard drive, edit book files using Atom. 
+
+Open a book directory in Atom (or all the book directories) using `File -> Open Folder` menu. 
+
+Before diving into editing, configure Atom as described in this article:   
+
 {{ toc }}
 
 ## Installing Atom Packages For Markdown Editing
 
-1. Open [Atom](https://atom.io/) (install Atom if it is not insalled yet) and open its settings via menu `File -> Settings` or by using `Ctrl + Comma` shortcut and click on `Install` tab:
+1. Open [Atom](https://atom.io/) (install Atom if it is not installed yet) and open its settings via menu `File -> Settings` or by using `Ctrl + Comma` shortcut and click on `Install` tab:
 
     ![Installing Atom packages](installing-atom-packages.png)
 
