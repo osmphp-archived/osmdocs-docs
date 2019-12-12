@@ -30,9 +30,15 @@ To get started with Git, download your book files to a local directory (I will r
     cd {book_dir}
     git init
 
-Git repository is created in `{book_dir}/.git` subdirectory.
+Git repository is created in `{book_dir}/.git` subdirectory:
 
-**TODO**. Image
+    {book_dir}
+        .git/       # directory containing Git repository 
+            ...
+        index.md    # book files    
+        ...
+
+It is not really important what's exactly inside `.git` directory, it is enough to know that all the book versions are stored there.   
 
 ## Commits
 
@@ -44,7 +50,9 @@ Create a initial commit or "the first version" of your book files by running the
     git add .
     git commit -am "Initial commit"
 
-**TODO**. Image
+After this operation, Git repository contains one commit named "Initial commit" with full copy of the book directory with a `master` branch attached to it (I'll return to [branches](#branches) in a minute):
+
+![Initial Git commit](initial-git-commit.png)
 
 Do some changes in the book directory - create, edit or delete files. After that, create another commit or "the second version" containing all changed book files  by running the the same commands in shell:
 
@@ -52,13 +60,15 @@ Do some changes in the book directory - create, edit or delete files. After that
     git add .
     git commit -am "Some changes"
 
-**TODO**. Image
+After this operation, Git repository contains two commits named "Initial commit" and "Some changes" each containing full copy of the book directory. Git knows that "Some changes" goes after "Initial commit". `master` branch attached to the last commit:
 
-Internally, Git stores full copy of all your book files in every commit. It means that you will be able to get every version of your book later if you need it.
+![Second Git commit](second-git-commit.png)
+
+As Git stores full copy of all your book files in every commit, you can get every version of your book later if you need it.
 
 By the way, you may use the verb "to commit" instead of "to create a commit".
 
-Git also stores the following information for every commit:
+Git also stores the following information with every commit:
 
 * description of the commit, the **commit message**; enter meaningful commit messages when you commit the changes, see `Initial commit` and `Some changes` in the examples above
 * who created the commit
@@ -106,7 +116,9 @@ You may create as many branches as you like using:
     git branch one
     git branch another
 
-**TODO**. Image
+All created branches are attached to the same commit as the current branch:
+
+![Creating Git branches](creating-git-branches.png)
 
 List all branches in your repository with
 
@@ -139,9 +151,9 @@ Use branches to label commits which you currently work on.
 
 For example, two team members may take some commit, make independent changes to it, and create independent commits with their changes. Or independent commits maybe created by the same person (see [Feature Branches](feature-branches.html) for a practical example).
 
-Such independent work results in non-linear commit history.
+Such independent work results in non-linear commit history:
 
-**TODO**. Image
+![Non-liner Git commit history](non-linear-git-commit-history.png)
 
 By the way, this is where the word "branch" comes from. Branches - the labels attached to commits, are used to create tree-like branches in the commit history.
 
@@ -156,8 +168,6 @@ Use the following command to merge branch `some-work` into the current branch:
 
 After this operation, `some-work` branch stays where is was while the current branch is reattached to the new commit containing merged work (the **merge commit**).
 
-**TODO**. Image
-
 `git merge` command tries hard to merge changes, even if they are made to the same file. Sometimes, however, it may need you help to decide. In such cases `git merge` command will fail saying that there are conflicting changes in certain files. You will have to review these files, merge changes manually and commit them. It may sound scary, but actually manual merging only takes few minutes and rarely happens.
 
 Most often you won't use `some-work`  branch after it is merged into current branch, so you can delete it:
@@ -165,4 +175,7 @@ Most often you won't use `some-work`  branch after it is merged into current bra
     cd {book_dir}
     git branch -d some-work
 
-**TODO**. Image
+Below is an example of the commit history after merging branches:
+
+![Merging Git branches](merging-git-branches.png)
+ 
