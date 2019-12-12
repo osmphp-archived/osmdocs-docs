@@ -35,12 +35,16 @@ To upload your Git repository to GitHub, you need to allow your computer to acce
 
 Uploading commits from your local repository to the GitHub repository is known as **pushing**.
 
-Before first push, link your local repository to your GitHub repository. To do that copy GitHub repository URL by pressing `Clone or download` on your GitHub repository page, clicking on `Use SSH` and copying `git@github...git` URL from the text box and use it in the following command:
+Before the first push, link your local repository to your GitHub repository:
+
+1. in GitHub, copy GitHub repository URL by pressing `Clone or download` on your GitHub repository page, clicking on `Use SSH` and copying `git@github...git` URL from the text box. 
+
+2. Use copied GitHub repository URL in the following command:
 
     cd {book_dir}
     git remote add origin git@github...git
 
-Then push your local commits to GitHub repository:
+After your local repository is linked to the repository on GitHub, push your local commits to GitHub repository:
 
     cd {book_dir}
     git checkout master

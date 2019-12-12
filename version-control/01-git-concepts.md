@@ -1,26 +1,10 @@
 # Git Concepts
 
-Git is the world's leading distributed version control system.
-
-Git is mostly used to store software's source code as it especially shines in handling text files. It is also often used to store documentation files.
-
-In this guide, I will use Git to store all versions of the book files and to organize team workflow.
-
 {{ toc }}
-
-## Command Line And Visual Tools
-
-To run Git operations, I will use command line. You may also use a visual alternative:
-
-* [GitHub Desktop](https://desktop.github.com/)
-* [Sourcetree](https://www.sourcetreeapp.com/)
-* [PhpStorm](https://www.jetbrains.com/help/phpstorm/using-git-integration.html) or other [JetBrains](https://www.jetbrains.com/products.html) product
-
-I do recommend trying out one of the visual tools, especially for analyzing version history and comparing versions.
 
 ## Learning Resources
 
-Git is known for its steep learning curve. Keep in mind, however, that lots of people use it every day, hence you can do that too.
+Git is known for its steep learning curve. Keep in mind, however, that lots of people use it every day, and you can do it too!
 
 To get started with Git, check the official learning resources:
 

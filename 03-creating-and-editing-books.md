@@ -18,6 +18,13 @@ This way, you'll edit local files and just check the changes in a Web browser, n
 
 Alternatively, you can just edit book files (text and images) on OsmDocs server directly using SFTP client and see the changes in a Web browser.
 
-See also:
+This section dives into the details of creating a book and understanding book structure and syntax:
 
 {{ child_pages }}
+
+See also:
+
+* [Preparing your computer](../preparing-your-computer.html)
+* [Editing book files with IntelliJ IDEA](../preparing-your-computer/intellij-idea.html)
+* [Editing book files with Atom](../preparing-your-computer/atom.html)
+* [Syncing book files from your local hard drive to the OsmDocs server and back with OsmSync](../preparing-your-computer/osmsync.html)
