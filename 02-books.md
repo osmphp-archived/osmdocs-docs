@@ -1,3 +1,0 @@
-# Books
-
-{{ child_pages }}

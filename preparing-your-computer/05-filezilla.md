@@ -25,7 +25,7 @@ In `Edit -> Settings` menu:
 
 1. Set `Transfers -> Maximum simultaneous transfers = 5` to make downloading of large directories faster.
 2. Set `Interface -> File lists -> Double-click action on files = View / Edit`.
-3. Choose `File editing -> Use customer editor` - and pick editor of your choice, for instance, [Notepad++](https://notepad-plus-plus.org/).
+3. Choose `File editing -> Use custom editor` - and pick editor of your choice, for instance, [Notepad++](https://notepad-plus-plus.org/).
 4. Explicitly associate `.md` file with your Markdown editor by typing into `File editing -> Filetype associations -> Custom filetype associations` the following or similar text:
 
         md "c:\Program Files (x86)\MarkdownPad 2\MarkdownPad2.exe"

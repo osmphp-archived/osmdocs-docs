@@ -1,4 +1,8 @@
-# PhpStorm
+# PhpStorm Or Other JetBrains IDE
+
+PhpStorm and other JetBrains IDE are all built on the top of [IntelliJ IDEA](intellij-idea.html). As such, they all have Markdown editor, Git integration and very similar settings already described in the article on [IntelliJ IDEA](intellij-idea.html).
+
+In addition, these IDE also have built-in solution for synchronizing files with the server. This article describes how to set it up and use it.  
 
 {{ toc }}
 
