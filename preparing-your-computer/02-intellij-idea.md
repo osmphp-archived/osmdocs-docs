@@ -20,4 +20,5 @@ In `File -> Settings (Alt+F7)`:
         * Set `When files are created = Add silently` and check `Including external files` checkbox
         * Set `When files are deleted = Remove silently`
     * Clear `Git -> Show Push dialog for Commit and Push` checkbox - for faster Git push operations.
-* (Optional) Set `Appearance & Behavior -> Appearance -> Theme = Darcula`.
+* Optionally, customize `Appearance & Behavior -> Appearance`: 
+    Set `Appearance & Behavior -> Appearance -> Theme = Darcula`.
