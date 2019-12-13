@@ -1,12 +1,16 @@
 # Remote Repositories
 
+So far, all the operations were made in the Git repository of your book located in a local directory on your computer.
+
+To share your work with a team mates, don't just copy book files to their computers manually. Instead upload your Git repository to GitHub or other Git hosting provider and ask your team mates to retrieve it from there. This way you'll enable very effective way of syncing everyone's work across the whole team:
+
+![Team workflow](team-workflow.png)
+
+This article goes into details of configuring a remote repository and working with it:
+
 {{ toc }}
 
 ## Creating Remote Repository
-
-So far, all the operations were made in the Git repository of your book located in a local directory on your computer.
-
-To share your work with a team mates, don't just copy book files to their computers manually. Instead upload your Git repository to GitHub or other Git hosting provider and ask your team mates to retrieve it from there. This way you'll enable very effective way of syncing everyone's work across the whole team.
 
 The copy of your repository on GitHub is known as a **remote repository**
 
@@ -102,10 +106,17 @@ To merge remote changes into your own local `master` branch, run the following c
 If you didn't commit any changes since last fetch/merge operations, you can use the following shorter command to do both fetch and then merge:
 
     git pull origin master
-    
+
 ## Pushing Local Changes
 
 After you write and commit more content locally, you can push your changes to the remote repository:
 
     git push origin master
     
+This operation also reattaches remote `master` branch and `origin/master` branch to the same commit as your local `master` branch.
+
+In case someone pushed commits you didn't fetch, your push may fail. In this case, fetch, merge and then push again:
+
+    git fetch
+    git merge origin/master
+    git push origin master

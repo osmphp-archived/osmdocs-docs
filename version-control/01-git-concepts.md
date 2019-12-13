@@ -40,6 +40,10 @@ Git repository is created in `{book_dir}/.git` subdirectory:
 
 It is not really important what's exactly inside `.git` directory, it is enough to know that all the book versions are stored there.   
 
+Let's add your book's Git repository into the picture:
+
+![Local workflow](local-workflow.png)
+
 ## Commits
 
 **Commit** is a single version of all book files stored in Git repository.

@@ -2,7 +2,7 @@
 
 Having book copy locally as suggested in the previous sections of this user guide has yet another important benefit: you can put book files under version control. 
 
-I recommend [Git](https://git-scm.com/) - the world's leading distributed version control system. Git is mostly used to store software's source code as it especially shines in handling text files. However, it is also often used to store documentation files. 
+We will use [Git](https://git-scm.com/) - the world's leading distributed version control system. Git is mostly used to store software's source code as it especially shines in handling text files. However, it is also often used to store documentation files. 
  
 Using Git version control, you can:
 
