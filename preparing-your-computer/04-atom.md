@@ -2,7 +2,7 @@
 
 After downloading books to your local hard drive, edit book files using Atom. 
 
-Open a book directory in Atom (or all the book directories) using `File -> Open Folder` menu. 
+Open the directory containing all the books in Atom using `File -> Open Folder` menu. 
 
 Before diving into editing, configure Atom as described in this article:   
 
