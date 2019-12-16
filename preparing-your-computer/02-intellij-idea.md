@@ -75,4 +75,6 @@ Open `View -> Tool Windows -> Version Control (Alt+9)` and click on `Log` tab.
 
 ### Creating Pull Requests
 
-     
+1. Create new feature branch in `Git Branches` tool window as described in [Working With Git Branches](#working-with-git-branches).
+
+2. make some changes and commit     
