@@ -13,8 +13,13 @@ Contents:
 In `File -> Settings (Alt+F7)`:
 
 * Set `Keymap = Visual Studio` to make sure that keyboard shortcuts in your copy of IntelliJ IDEA are the same as in this user guide.
+* Optionally, if you'll use Git: in `Keymap` section, find `Main menu -> VCS -> Git -> Fetch` and double click on it:
+    * Pick `Add Keyboard Shortcut`
+    * Press `Ctrl+Shift+M`.
+    * Check `Second keystroke` and press down arrow.
+    * Press `OK`, `Apply` and `OK`. 
 * Clear `System Settings -> Use "safe write"` checkbox to force saving file every time you switch from IntelliJ IDEA to another application.
-* In `Version Control` section: 
+* Optionally, if you'll use Git: in `Version Control` section: 
     * Check `Commit dialog -> Commit from local changes without showing the Commit dialog` checkbox - for faster Git commit operations.
     * In `Confirmation` subsection:
         * Set `When files are created = Add silently` and check `Including external files` checkbox
