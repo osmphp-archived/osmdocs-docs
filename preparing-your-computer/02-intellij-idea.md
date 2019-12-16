@@ -69,4 +69,10 @@ Open `View -> Tool Windows -> Version Control (Alt+9)` and click on `Log` tab.
  
 3. After making some commits, push to the remote repository using `VCS -> Git -> Push (Ctrl+Shift+K)` dialog.
 
-4. Merge the latest changes from the remote repository using `VSC -> Git -> Fetch` command followed by merging `origin/master` branch using `Git Branches` tool window as described in [Working With Git Branches](#working-with-git-branches).   
+4. Merge the latest changes from the remote repository using `VSC -> Git -> Fetch` command followed by merging `origin/master` branch using `Git Branches` tool window as described in [Working With Git Branches](#working-with-git-branches).
+
+5. You can also push when committing. Commit as described in [Committing To A Git Repository](#committing-to-a-git-repository), but instead of clicking `Commit (Alt+I)` button, press on down arrow near t and pick `Commit And Push (Ctrl+Alt+K)`.
+
+### Creating Pull Requests
+
+     
