@@ -31,3 +31,7 @@ Just edit files in PhpStorm project, create new ones, delete obsolete files - al
 After making changes, open the book in the browser by clicking on a book link in `My Books` page of your OsmDocs account and see how the changes look like.
 
 > **Note**. PhpStorm also tracks changes you make to files outside of PhpStorm. However it only changes for changes and upload changes when you switch back to PhpStorm window.
+
+## Using Git
+
+See [Using Git in IntelliJ IDEA](intellij-idea.html) as in PHPStorm and other JetBrains products it works the same way.

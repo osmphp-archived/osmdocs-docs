@@ -35,8 +35,11 @@ Before using Git, install and configure it as described in [installing Git](../v
 ### Committing To A Git Repository
 
 1. Edit files or create new ones. Allow IDE to put new files under Git if it asks you to.
+
 2. See new, modified and deleted files since last commit using `View -> Tool Windows -> Version Control (Alt+9)`. Press `Alt+9` again to hide the tool window.
+
 3. If you see red (not under Git) files in the version control Tool Window, click on such files and press `Ctrl+Alt+A` to put them under Git.
+
 4. Press `Ctrl+K` to create a commit, enter commit message describing the changes you made and press the `Commit` button (`Alt+I`).
 
 ### Viewing Commit History
@@ -46,9 +49,24 @@ Open `View -> Tool Windows -> Version Control (Alt+9)` and click on `Log` tab.
 ### Working With Git Branches
 
 1. See all the book directories being under separate Git repositories and on which branch they are (typically you will see `master`) by clicking on `Git: master` in the right-bottom corner of the IDE or by using `Ctrl+Shift+BackTick` keyboard shortcut. It opens `Git Branches` tool window. 
+
 2. Create new branch and switch to it in `Git Branches` tool window by clicking on a book directory name and picking `New branch`  (available after making the initial commit).
+
 3. Merge a branch into the current branch in `Git Branches` tool window by clicking on a book directory name, picking the branch to merge from and clicking on `Merge into current` command.
+
 4. Delete a branch in `Git Branches` tool window by clicking on a book directory name, picking the branch to be deleted and clicking on `Delete` command.
 
+### Working With Remote Repositories
 
+1. Create a remote repository, configure your GitHub account and push to the remote repository for the first time in command line, as described in [Remote Repositories](../version-control/remote-repositories.html).
+2. Clone existing repository into your OsmDocs account:
+
+    1. Create new empty book `{book_name}` on OsmDocs.
+    2. Stop [OsmSync](osmsync.html) from syncing changes.
+    3. Clone existing repository using `VCS -> get From Version Control`, entering SSH version of the remote repository URL, picking directory `{project_path}/{book_name}` pressing `OK`. 
+    4. Run `gulp push` command of OsmSync to push all the books to OsmDocs server including the one you have just cloned.
+    5. Start OsmSync again to watch and upload your changes. 
  
+3. After making some commits, push to the remote repository using `VCS -> Git -> Push (Ctrl+Shift+K)` dialog.
+
+4. Merge the latest changes from the remote repository using `VSC -> Git -> Fetch` command followed by merging `origin/master` branch using `Git Branches` tool window as described in [Working With Git Branches](#working-with-git-branches).   
