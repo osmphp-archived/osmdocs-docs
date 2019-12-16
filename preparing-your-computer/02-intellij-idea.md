@@ -79,4 +79,10 @@ Open `View -> Tool Windows -> Version Control (Alt+9)` and click on `Log` tab.
 
 2. Make some changes and commit them on the feature branch.     
 
-3. Create a pull request using `VCS -> Git -> Create Pull Request`. Enter pull request title so that maintainer can understand what your changes are about and press `OK`.
+3. Create a pull request using `VCS -> Git -> Create Pull Request` and picking the remote repository. Enter pull request title so that maintainer can understand what your changes are about and press `OK`.
+
+### Merging Pull Requests
+
+1. Open list of pending pull requests using `VCS -> Git -> View Pull Requests` and picking the remote repository.
+
+2. If the change is OK to merge, click on `Open on GitHub` link and merge the pull request as described in [Maintainers And Pull Requests](../version-control/team-workflow.html#maintainers-and-pull-requests).  
