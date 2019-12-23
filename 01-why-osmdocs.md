@@ -1,4 +1,4 @@
-# Why Use OsmDocs
+# Why OsmDocs
 
 > [If isn't documented, it doesn't exist](https://blog.codinghorror.com/if-it-isnt-documented-it-doesnt-exist/) - Jeff Atwood.
 
@@ -25,7 +25,7 @@ Or even better, you edit content in a local directory and run a tool which syncs
 
 This way, edit-preview loop is very fast.
 
-Also, there is:
+Other features:
 
 * **No vendor lock-in**
 
