@@ -6,15 +6,6 @@ Contents:
 
 {{ toc }}
 
-
-## Using Custom Domains
-
-By default, every book's root URL is `https://osmdocs.com/{user}/{book}/`.
-
-If you have purchased your own domain, show your book on it instead. So that book's root URL becomes `https://yourdomain.com/`.
-
-This user guide is an example of using custom domain for book's root URL. As you can see, its URL is `https://docs.osmdocs.com`.
-
 ## Customizing OsmDocs
 
 You can also download the open-source version of OsmDocs - the software which displays book files as a website - and install it on your server. 
