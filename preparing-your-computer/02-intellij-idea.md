@@ -31,7 +31,7 @@ In `File -> Settings (Alt+F7)`:
 
 ## Using Git
 
-Before using Git, install and configure it as described in [installing Git](../version-control/git-concepts.html#installing-git).
+Before using Git, install and configure it as described in [installing Git](../using-version-control/git-concepts.html#installing-git).
 
 ### Creating Git repository For A Book
  
@@ -64,7 +64,7 @@ Open `View -> Tool Windows -> Version Control (Alt+9)` and click on `Log` tab.
 
 ### Working With Remote Repositories
 
-1. Create a remote repository, configure your GitHub account and push to the remote repository for the first time in command line, as described in [Remote Repositories](../version-control/remote-repositories.html).
+1. Create a remote repository, configure your GitHub account and push to the remote repository for the first time in command line, as described in [Remote Repositories](../using-version-control/remote-repositories.html).
 2. Clone existing repository into your OsmDocs account:
 
     1. Create new empty book `{book_name}` on OsmDocs.
@@ -91,4 +91,4 @@ Open `View -> Tool Windows -> Version Control (Alt+9)` and click on `Log` tab.
 
 1. Open list of pending pull requests using `VCS -> Git -> View Pull Requests` and picking the remote repository.
 
-2. If the change is OK to merge, click on `Open on GitHub` link and merge the pull request as described in [Maintainers And Pull Requests](../version-control/team-workflow.html#maintainers-and-pull-requests).  
+2. If the change is OK to merge, click on `Open on GitHub` link and merge the pull request as described in [Maintainers And Pull Requests](../using-version-control/team-workflow.html#maintainers-and-pull-requests).  

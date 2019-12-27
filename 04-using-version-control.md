@@ -1,4 +1,4 @@
-# Version Control
+# Using Version Control
 
 Having book copy locally as suggested in the previous sections of this user guide has yet another important benefit: you can put book files under version control. 
 
