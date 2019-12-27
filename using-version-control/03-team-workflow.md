@@ -45,9 +45,7 @@ Feature branches allow to pause when writing an article or section and start wor
 
 ## Maintainers And Pull Requests
 
-You may want to agree that only one or two persons can merge feature branches into the `master` branch (I'll call them **maintainers**). 
-
-All the rest team only works on feature branches and then asks maintainers to merge their feature branches back into the `master` branch.
+You may agree internally that only one or two persons can merge feature branches into the `master` branch (I'll call them **maintainers**). All the rest team only works on feature branches and then asks maintainers to merge their feature branches back into the `master` branch.
 
 Typical workflow:
 
@@ -98,7 +96,7 @@ Contributors create pull requests in a very similar way as team members do:
 
 ## Release Branches
 
-Once a book is ready, you may want to attach **release branch** to the latest commit, let's call it `v1` branch. Later, if you make one more "big release", you can create `v2` release branch, then `v3` and so on.
+Once a book is ready, you may attach a **release branch** to the latest commit, let's call it `v1` branch. Later, if you make one more "big release", you can create `v2` release branch, then `v3` and so on.
 
 After you created release branch, you can make big changes in the book on `master` branch while fixing typos on `v1` release branch. 
 
