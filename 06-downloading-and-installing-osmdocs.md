@@ -1,40 +1,60 @@
 # Downloading And Installing OsmDocs
 
-Minimum installation steps:
+To get started, [download OsmDocs project](#downloading-project-files) and configure the Web server to show it in your browser. Then just edit the book contents in the `data/book` directory. 
 
-1. Install [PHP 7.2](https://www.php.net/downloads.php) or later.
+For the Web server, I recommend [Nginx](#nginx). You can also use [Apache](#apache) or [PHP built-in Web server](#php-built-in-web-server).
 
-2. Download [pre-installed project](#todo).
+As you edit, [watch book files](#watching-book-files) to refresh the table of contents.
 
-3. Start PHP built-in Web server in the project's root directory:
+[Update OsmDocs](#updating-osmdocs) to the latest version periodically. 
 
+OsmDocs is an open-source project. Please [customize](#customizing-osmdocs) it or [contribute](contributing-to-osmdocs.html).
+
+Contents:
+
+{{toc}}
+
+## Prerequisites
+
+You will need:
+
+* [PHP 7.2](https://www.php.net/downloads.php) or later
+* [Nginx](https://nginx.org/en/download.html)
+    * or [Apache](https://httpd.apache.org/download.cgi) Web server
+    * or PHP built-in Web server for local use
+* [Node.js](https://nodejs.org/en/download/) for watching data and source files
+    * and [Gulp.js CLI](https://gulpjs.com/docs/en/getting-started/quick-start)
+* [Composer](https://getcomposer.org/download/) for updating OsmDocs
+
+## Downloading Project Files
+
+## Configuring The Web Server
+
+### Nginx
+
+### Apache
+
+### PHP Built-In Web Server
+
+Locally, you can avoid installing and configuring full-fledged Web server. Instead:
+
+1. Start PHP built-in Web server by running the following command in the project's root directory:
+                                                                                    
         php -S localhost:8000 -d public
 
-After OsmDocs is installed and running, edit book contents in the project's `data/book` directory and check how it looks in browser using URL address <http://localhost:8000/>. 
+2. The book is available at URL address <http://localhost:8000/>.
 
-Note that OsmDocs caches book contents. Whenever you add/rename/delete book files, clear the cache in the project's root directory:
+## Watching Book Files
+
+Alternatively, you may clear the cache manually by running the following command in the project's root directory:
 
     php fresh
 
-The minimum installation described above has certain limitations: 
+## Updating OsmDocs 
 
-* OsmDocs works faster under full-fledged Web server such as [Nginx](https://nginx.org/en/download.html) or [Apache](https://httpd.apache.org/download.cgi). 
-* Using [Node.js](https://nodejs.org/en/download/) and [Gulp.js CLI](https://gulpjs.com/docs/en/getting-started/quick-start) for automatically clearing book cache is more convenient than doing it manually  using `php fresh` command.
-* 
+## Customizing OsmDocs
 
-Read this article in full to pick professional installation options instead:        
+### Watching Source Files
 
-{{ toc }}
 
-## Using Nginx
-
-At the very least, install [PHP 7.2](https://www.php.net/downloads.php) or later.
-
-Other recommended software:
-
-1. [Nginx](https://nginx.org/en/download.html) or [Apache](https://httpd.apache.org/download.cgi) Web server.
-2. [Node.js](https://nodejs.org/en/download/) for building CSS, JS and other assets.
-3. [Gulp.js CLI](https://gulpjs.com/docs/en/getting-started/quick-start) for automatically clearing book cache after content changes.
-4. [Osm CLI](https://github.com/osmscripts/osm-runner) for fast module development.
-5. [Let's Encrypt Certbot](https://letsencrypt.org/docs/client-options/) for free SSL certificate.
 
