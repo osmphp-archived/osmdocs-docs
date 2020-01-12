@@ -38,7 +38,7 @@ Use `Pull` button in OsmDocs book settings to retrieve the latest book version f
 
 1. In OsmDocs book settings, press `Configure Web Hook` button and use `Copy` button to copy Web hook URL to clipboard.
 
-2. In GitHub repository `Settings -> Webhooks` page, press `Add webhook` button, paste the Web hook URL into the `Payload URL` field, set `Content Type == json` and press `Add webhook` button.
+2. In GitHub repository `Settings -> Webhooks` page, press `Add webhook` button, paste the Web hook URL into the `Payload URL` field, keep `Content Type == application/x-www-form-urlencoded` and press `Add webhook` button.
 
 After these steps, the book contents on OsmDocs will be update after every push to GitHub repository.
 
